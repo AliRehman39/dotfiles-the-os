@@ -23,6 +23,8 @@ modules:
     install:
       - micro
       - starship
+      - waydroid
+      - 
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -34,8 +36,29 @@ modules:
     system:
       # If no repo information is specified, Flathub will be used by default
       install:
-        - org.mozilla.firefox
+        - com.brave.Browser
         - org.gnome.Loupe
+        - org.kde.krita
+        - org.blender.Blender
+        - md.obsidian.Obsidian
+        - org.gnome.Evolution
+        - org.telegram.desktop
+        - com.microsoft.Edge
+        - com.transmissionbt.Transmission
+        - net.ankiweb.Anki
+        - com.heroicgameslauncher.hgl
+        - com.valvesoftware.Steam
+        - org.kde.gwenview
+        - org.kde.okular
+        - org.gabmus.gfeeds
+        - org.kde.krdc
+        - io.github.spacingbat3.webcord
+        - org.kde.haruna
+        - fm.reaper.Reaper
+        - org.onlyoffice.desktopeditors
+        - org.flameshot.Flameshot
+        - com.bitwarden.desktop
+        
       remove:
         - org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
